@@ -11,7 +11,7 @@ const githubUserInfo = async function () {
   };
   
   githubUserInfo();
-  
+  //Organizing User Info Display
   const displayUserInfo = function (data) {
     const div = document.createElement("div");
     div.classList.add("user-info");
